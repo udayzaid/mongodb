@@ -7,6 +7,7 @@ Este repositorio contiene los pasos para configurar y ejecutar **MongoDB** dentr
 Antes de comenzar, asegúrate de tener lo siguiente instalado:
 
 - **Docker**: Para ejecutar contenedores y manejar imágenes.
+- ** Instalar Docker composer **
 - **MongoDB Compass**: Herramienta gráfica para gestionar bases de datos MongoDB.
 - **Git**: Para clonar el repositorio y manejar el control de versiones (opcional).
 ## Paso 1: Descargar la imagen de MongoDB
@@ -19,6 +20,7 @@ Esto descargará la última versión de la imagen de MongoDB.
 ## Paso 2: Crear un contenedor con MongoDB
 Ahora, vamos a crear un contenedor para ejecutar MongoDB.
     Ejecuta el siguiente comando para crear y correr el contenedor de MongoDB:
+este comando lo hacemos en un power Shell 
 
 docker run --name mongo-container -d -p 27017:27017 mongo
 
