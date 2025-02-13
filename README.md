@@ -30,10 +30,11 @@ Aquí está lo que hace cada parte:
     -d: ejecuta el contenedor en segundo plano.
     -p 27017:27017: mapea el puerto 27017 del contenedor al puerto 27017 de tu máquina local (este es el puerto por defecto de MongoDB).
     mongo: es la imagen de MongoDB que descargamos.
-## muy importante si te sale error en este paso es por que necesitas abrir el proggrama de docker en tu sistema una vez abierto esperas a que se ejecute la interfaz y vuelves a hacer el paso 2 ## 
+## muy importante si te sale error en este paso es por que necesitas abrir el programa de docker en tu sistema una vez abierto esperas a que se ejecute la interfaz y vuelves a hacer el paso 2 ## 
 Verifica que el contenedor está corriendo: Para asegurarte de que el contenedor se ha creado correctamente y está en ejecución, usa el siguiente comando:
 
-docker ps
+## docker ps
+
 Esto te mostrará una lista de los contenedores en ejecución. Debes ver algo como esto:
 
 CONTAINER ID   IMAGE   COMMAND                  CREATED        STATUS        PORTS                      NAMES
